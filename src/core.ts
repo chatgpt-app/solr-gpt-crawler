@@ -1,5 +1,5 @@
 // For more information, see https://crawlee.dev/
-import { PlaywrightCrawler } from "crawlee";
+import { PlaywrightCrawler, sleep } from "crawlee";
 import { readFile, writeFile } from "fs/promises";
 import { glob } from "glob";
 import {Config, configSchema} from "./config.js";

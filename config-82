@@ -1,0 +1,9 @@
+import { Config } from "./src/config";
+
+export const defaultConfig: Config = {
+  url: "https://solr.apache.org/guide/8_2/",
+  match: "https://solr.apache.org/guide/8_2/**",
+  maxPagesToCrawl: 5000,
+  outputFileName: "output82.json",
+  selector: `.content`,
+};
